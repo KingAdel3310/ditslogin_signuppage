@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DITS Academy Sign Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans">
+    <header class="bg-gray-100 py-2 px-4 flex justify-between items-center">
+      <div class="flex space-x-4">
+        <div class="flex items-center">
+          <img
+            src="images/telephone.png"
+            alt="Telephone"
+            class="h-5 w-5 mr-2"
+          />
+          <span class="text-sm">+234 9023 567 3890</span>
+        </div>
+        <div class="flex items-center">
+          <img src="images/mail.png" alt="Email" class="h-5 w-5 mr-2" />
+          <span class="text-sm">contact@ditsAcademy.com</span>
+        </div>
+      </div>
+      <div class="flex items-center space-x-2">
+        <img src="images/Facebook.svg" alt="Facebook Logo" class="h-5 w-5" />
+        <img src="images/Twitter.svg" alt="Twitter Logo" class="h-5 w-5" />
+        <img src="images/Instagram.svg" alt="Instagram Logo" class="h-5 w-5" />
+        <span class="text-sm ml-2">English</span>
+      </div>
+    </header>
+
+    <div class="flex justify-between items-center py-4 px-6">
+      <img src="images/ditslogo.png" alt="DITS Logo" class="h-10" />
+      <nav class="hidden md:flex space-x-6 items-center">
+        <a href="#" class="flex items-center">
+          <img src="images/menu.png" alt="Menu" class="h-5 w-5 mr-2" />
+          Courses
+        </a>
+        <img src="images/cart.png" alt="Shopping Cart" class="h-5 w-5" />
+        <a href="login.html">Login Page</a>
+        <a href="index.html" class="text-purple-600">Join Now</a>
+      </nav>
+    </div>
+    <hr class="border-gray-200" />
+
+    <main
+      class="flex justify-center items-center min-h-screen bg-gray-50 py-10"
+    >
+      <div class="flex flex-col md:flex-row items-center max-w-5xl w-full">
+        <div class="w-full md:w-1/2 p-6">
+          <img
+            src="images/login-security.gif"
+            alt="Login Security Illustration"
+            class="w-full"
+          />
+        </div>
+
+        <div class="w-full md:w-1/2 p-6">
+          <h1 class="text-3xl font-bold mb-2">
+            Sign up<span class="text-purple-600">!</span>
+          </h1>
+          <p class="text-gray-600 mb-6">
+            Explore, learn, and grow with us. Enjoy a seamless and enriching
+            educational journey. Let's begin!
+          </p>
+          <form action="login.html" method="post" class="space-y-4">
+            <div>
+              <label for="first-name" class="block text-sm font-medium"
+                >First name</label
+              >
+              <input
+                type="text"
+                placeholder="Enter your first name"
+                required
+                class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+              />
+            </div>
+            <div>
+              <label for="last-name" class="block text-sm font-medium"
+                >Last name</label
+              >
+              <input
+                type="text"
+                placeholder="Enter your last name"
+                required
+                class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium">Email</label>
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+                class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+              />
+            </div>
+            <div>
+              <label for="password" class="block text-sm font-medium"
+                >Password</label
+              >
+              <input
+                type="password"
+                placeholder="Enter your valid password"
+                required
+                class="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+              />
+            </div>
+            <div class="flex items-center">
+              <input type="checkbox" class="mr-2" />
+              <label class="text-sm">Apply to be an instructor</label>
+            </div>
+            <div
+              style="width: 300px"
+              class="flex items-center p-4 bg-white border border-gray-300 rounded shadow-sm w-[284px]"
+            >
+              <div class="flex items-center space-x-3">
+                <input type="checkbox" id="notRobot" class="w-5 h-5" />
+                <label for="notRobot" class="text-gray-800 text-sm font-medium"
+                  >I'm not a robot</label
+                >
+              </div>
+              <div class="ml-20"></div>
+              <img
+                src="images/recaptcha.png"
+                alt="reCAPTCHA Logo and Text"
+                class="w-12 h-12 object-contain"
+              />
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-purple-600 text-white py-2 rounded-md hover:bg-purple-700"
+            >
+              Sign Up
+            </button>
+          </form>
+          <p class="text-center mt-4">
+            Already have an account?
+            <a href="login.html" class="text-purple-600">Login</a>
+          </p>
+          <div class="flex items-center justify-center mt-4">
+            <hr class="w-1/4 border-gray-300" />
+            <span class="mx-2 text-gray-500">Or</span>
+            <hr class="w-1/4 border-gray-300" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-10 px-6">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <img src="images/ditslogo.png" alt="DITS Logo" class="h-10 mb-4" />
+          <p class="text-gray-400">
+            Study any topic, anytime. Explore thousands of courses at the lowest
+            price ever!
+          </p>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Top Categories</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="#" class="hover:text-white">Excel</a></li>
+            <li>
+              <a href="#" class="hover:text-white"
+                >Microsoft Office Automation Essentials (MOAE)</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white"
+                >Designing like A Pro with Photoshop and Illustrator</a
+              >
+            </li>
+            <li><a href="#" class="hover:text-white">Digital Marketing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Useful Links</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li>
+              <a href="#" class="hover:text-white">Become an instructor</a>
+            </li>
+            <li><a href="#" class="hover:text-white">Blog</a></li>
+            <li><a href="#" class="hover:text-white">All Courses</a></li>
+            <li><a href="index.html" class="hover:text-white">Sign up</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Help</h3>
+          <ul class="space-y-2 text-gray-400">
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Privacy Policy</li>
+            <li>Terms and condition</li>
+            <li>Faq</li>
+            <li>Refund Policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="max-w-6xl mx-auto mt-10 border-t border-gray-700 pt-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <h1 class="text-lg font-semibold mb-2">
+              Subscribe to our newsletter
+            </h1>
+            <form action="#" method="post" class="flex">
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                class="p-2 rounded-l-md border-none focus:outline-none"
+              />
+              <button
+                type="submit"
+                class="bg-purple-600 p-2 rounded-r-md hover:bg-purple-700"
+              >
+                <img src="images/arrow.png" alt="Arrow" class="h-5 w-5" />
+              </button>
+            </form>
+          </div>
+          <p class="text-gray-400">DITS academy.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
